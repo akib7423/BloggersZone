@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oi&family=Stick&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+:root {
+    --main-bg-color: brown;
+    --font1: 'Stick', sans-serif;
+    --font2: 'Caveat', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /*font-family: var(--font2);*/
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 5px 108px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: var(font3);
+}
+
+.form-box input,
+textarea {
+    width: 44vw;
+    padding: 7px 5px;
+    margin: 7px 0;
+    font-family: var(font3);
+    border: 2px solid brown;
+    border-radius: 5px;
+}

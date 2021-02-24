@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 78px;
+    /*background-color: rgb(14, 78, 78);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 16px;
+    display: flex;
+    margin: 16px;
+}
+
+.nav-left a {
+    font-size: 23px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 17 61px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 25px;
+    font-family: var(--font2);
+}
+
+.nav-right {}
+
+.content {
+    height: 350px;
+    /*background-color: rgba(255, 255, 255, 0.986);*/
+    display: flex;
+    margin-top: 32px;
+    padding: 0px;
+    position: relative;
+}
+
+.content-left {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*width:50%;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-right img {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.content-right {
+    /*width:50%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content::after {
+    content: "";
+    background-image: url('../img/blog.png');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.home-articles {
+    background-color: rgb(240, 238, 238);
+    padding-top: 12px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    width: 80px;
+    height: 255px;
+    /*background-color: darkslategray;*/
+    right: 100px;
+    top: 100px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 250px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    font-family: var(--font3);
+    color: black;
+    font-size: 18px;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    flex-direction: column;
+}
+
+.footer a {
+    color: rgb(231, 219, 219);
+}
